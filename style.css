@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  gap: 0px;
+}
+
+.sidebar {
+  color:aliceblue;
+  text-align: center;
+  padding-top: 20px;
+  height: 100%;
+  width: 250px;
+  min-width: 250px;
+  background-color:darkcyan;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: lightgoldenrodyellow;
+}
+
+.header {
+  color:aliceblue;
+  text-align: center;
+  padding-top: 20px;
+  height: 100px;
+  width: 100%;
+  background-color:grey;
+  min-width: 1000px;
+}
+
+#container {
+  color:darkblue;
+  flex: 1;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  text-align: center;
+  padding: 50px;
+  height: 200px;
+  width: 200px;
+  background-color: coral;
+}
