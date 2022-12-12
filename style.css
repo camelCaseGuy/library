@@ -16,13 +16,13 @@ body {
 }
 
 .sidebar {
-  color:aliceblue;
+  color: aliceblue;
   text-align: center;
   padding-top: 20px;
   height: 100%;
   width: 250px;
   min-width: 250px;
-  background-color:darkslategray;
+  background-color: darkslategray;
 }
 
 .content {
@@ -34,17 +34,17 @@ body {
 }
 
 .header {
-  color:aliceblue;
+  color: aliceblue;
   text-align: center;
   padding-top: 20px;
   height: 100px;
   width: 100%;
-  background-color:dimgray;
+  background-color: dimgray;
   min-width: 1000px;
 }
 
 #container {
-  color:darkblue;
+  color: darkblue;
   flex: 1;
   display: flex;
   gap: 10px;
@@ -59,4 +59,18 @@ body {
   height: 200px;
   width: 200px;
   background-color: burlywood;
+}
+
+form * {
+  margin: 5px;
+}
+
+form input, form button {
+  height: 30px;
+  width: 200px;
+}
+
+form input[type="checkbox"] {
+  height: unset;
+  width: unset;
 }
