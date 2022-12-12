@@ -22,7 +22,7 @@ body {
   height: 100%;
   width: 250px;
   min-width: 250px;
-  background-color:darkcyan;
+  background-color:darkslategray;
 }
 
 .content {
@@ -39,7 +39,7 @@ body {
   padding-top: 20px;
   height: 100px;
   width: 100%;
-  background-color:grey;
+  background-color:dimgray;
   min-width: 1000px;
 }
 
@@ -58,5 +58,5 @@ body {
   padding: 50px;
   height: 200px;
   width: 200px;
-  background-color: coral;
+  background-color: burlywood;
 }
